@@ -1,0 +1,8 @@
+#N canvas 961 115 450 309 10;
+#X obj -1539 -243 dac~;
+#X obj -1540 -424 subsynth;
+#X obj -1507 -478 notein;
+#X connect 1 0 0 0;
+#X connect 1 0 0 1;
+#X connect 2 0 1 0;
+#X connect 2 1 1 1;
